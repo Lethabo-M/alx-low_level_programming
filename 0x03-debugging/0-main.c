@@ -1,17 +1,17 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
 * main - Test function for positive or negative
-* Return: 0
+* Return:Always 0
 */
 
 int main(void)
 {
 	int i;
 
-	i = 0;
+	if (i == 0)
+		printf("%d is zero", i);
 
-	positive_or_negative(i);
-
+	printf("\n");
 	return (0);
 }
